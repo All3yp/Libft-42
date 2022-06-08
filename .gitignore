@@ -1,14 +1,41 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Others
 *.pdf
 *~
-*.a
-*.o
-*.out
-*.c_old
-.vscode
 ._*
-*.dSYM
 .disabled
+
+#Vscode and MacOs
+.vscode
+*.dSYM
 vgcore.*
-*.not_c
 .DS_Store
 *.so
