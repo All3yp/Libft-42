@@ -1,0 +1,14 @@
+*.pdf
+*~
+*.a
+*.o
+*.out
+*.c_old
+.vscode
+._*
+*.dSYM
+.disabled
+vgcore.*
+*.not_c
+.DS_Store
+*.so
