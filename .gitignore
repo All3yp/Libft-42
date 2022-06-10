@@ -39,3 +39,4 @@
 vgcore.*
 .DS_Store
 *.so
+objs
