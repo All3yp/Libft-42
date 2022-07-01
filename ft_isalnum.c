@@ -6,7 +6,7 @@
 /*   By: nopereir <nopereir@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 18:41:30 by nopereir          #+#    #+#             */
-/*   Updated: 2022/06/07 22:54:02 by nopereir         ###   ########.fr       */
+/*   Updated: 2022/06/25 10:57:08 by nopereir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,5 @@
 
 int	ft_isalnum(int c)
 {
-	if (!ft_isalpha(c) && !ft_isdigit(c))
-	{
-		return (0);
-	}
-	return (1);
+	return ((ft_isalpha(c) || ft_isdigit(c)));
 }
