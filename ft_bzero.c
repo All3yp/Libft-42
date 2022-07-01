@@ -6,7 +6,7 @@
 /*   By: nopereir <nopereir@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 19:47:09 by nopereir          #+#    #+#             */
-/*   Updated: 2022/06/09 20:35:07 by nopereir         ###   ########.fr       */
+/*   Updated: 2022/06/25 11:01:34 by nopereir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,12 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	ft_memset(s, '\0', n);
+	char	*clean;
+
+	clean = s;
+	while (n != 0)
+	{
+		*clean++ = 0;
+		n--;
+	}
 }
