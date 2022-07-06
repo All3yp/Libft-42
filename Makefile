@@ -6,7 +6,7 @@
 #    By: nopereir <nopereir@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/07 09:38:27 by nopereir          #+#    #+#              #
-#    Updated: 2022/07/02 12:13:05 by nopereir         ###   ########.fr        #
+#    Updated: 2022/07/06 15:42:34 by nopereir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,7 +52,6 @@ $(NAME): $(OBJS)
 $(OBJDIR)/%.o:    %.c	norm
 	@echo -n $(NAME):' $@: '
 	@mkdir -p $(OBJDIR)
-	$(NORM)
 	@$(CC) $(CFLAGS) -c $< -o $@
 	@echo "$(SUCCESS)"
 
