@@ -23,6 +23,12 @@ Go to the created repository and run following command:
 ```
 make
 ```
+or 
+
+```
+make bonus
+```
+
 # How to use
 Make sure libft.a and libft.h are in the same directory that you want to call the functions from. Include libft.h in your files
 ```c
